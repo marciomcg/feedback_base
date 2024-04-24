@@ -54,7 +54,30 @@ body {
     color: var(--ligh-grey);
     font-size: 15px;
     line-height: 24px;
+    margin-bottom: 24px;
 }
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.botoes button {
+    width: 50px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 50%;
+    border: none;
+    color: var(--medium-grey);
+    background-color: var(--dark-blue);
+    
+    transition: all ease-in-out 0.3s;
 
+    
+}
+.botoes button:hover {
+   
+}
 
 
